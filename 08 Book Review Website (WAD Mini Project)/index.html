@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Book Review Site</title>
+
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- javascript and bootstrap stylesheets -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Sigmar+One|Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <section id="title-section">
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#">Book Review</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Genre
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Crime</a>
+                <a class="dropdown-item" href="#">Thriller</a>
+                <a class="dropdown-item" href="#">Fantasy</a>
+                <a class="dropdown-item" href="#">Fiction</a>
+                <a class="dropdown-item" href="#">Non-Fiction</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book Sale</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contribute</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="title-heading">Find books that you like. We provide the best review for the book you choose. </h1>
+      </div>
+      <div class="col-lg-6">
+        <img class="title-image" src="books.png" alt="Books-image">
+      </div>
+    </div>
+
+  </section>
+  <hr>
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4">
+        <i class="features-img far fa-check-circle fa-4x"></i>
+        <h3 class="heading">Approved Reviews by Professionals</h3>
+      </div>
+      <div class="col-lg-4">
+        <i class="features-img fas fa-bullseye fa-4x"></i>
+        <h3 class="heading">Accurate Reviews</h3>
+      </div>
+      <div class="col-lg-4">
+        <i class="features-img fas fa-heart fa-4x"></i>
+        <h3 class="heading">User Friendly</h3>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <section id="reviews">
+    <div id="review-carousel" class="carousel slide" data-ride="carousel" data-interval= "20000" data-pause= "hover">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h4 class="review-heading">Harry Potter's life is miserable. Without his parents alive,
+            he's stuck with his heartless relatives, who force him to live in a small closet under the stairs. Not only was he treated badly, Harry was kept in dim light about him being a WIZARD!
+            Find out more about his first year at Hogwards School of Witchcraft and Wizardry! Click on the image to read the complete review.</h4>
+            <a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone"><img class="review-image" src="hp-1.jpg" alt="Harry Potter and the Philosopher's Stone"></a>
+            <p><em>Harry Potter and the Philosopher's Stone</em></p>
+          </div>
+
+          <div class="carousel-item">
+            <h4 class="review-heading">Harry is about to start his second year at Hogwarts. He expects it to be a normal year after his experiences the term before but a secret chamber opens, muggle-born students are attacked.
+              Harry must put his life in danger once more. Find out more about his adventure, go ahead and read the book! Click on the image to read the complete review.</h4>
+              <a href="https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets"><img class="review-image" src="hp-2.jpg" alt="Harry Potter and the Chamber of Secrets"></a>
+              <p><em>Harry Potter and the Chamber of Secrets</em></p>
+            </div>
+
+            <div class="carousel-item">
+              <h4 class="review-heading">after a long summer (and some aunt abusing antics), Harry is back at Hogwarts School of Witchcraft and Wizardry, with his trusty best friends: Ron and Hermione.
+                Yet, secret and mysterious things are happening in the wizarding world, and Harry is not safe from the dark and dangerous people at large.
+                Find out more about his adventure, go ahead and read the book! Click on the image to read the complete review.</h4>
+                <a href="https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban"><img class="review-image" src="hp-3.jpg" alt="Harry Potter and the Prisoner  of Azkaban"></a>
+                <p><em>Harry Potter and the Prisoner  of Azkaban</em></p>
+              </div>
+
+              <div class="carousel-item">
+                <h4 class="review-heading">
+                  It is the summer holidays and soon Harry Potter will be starting his fourth year at Hogwarts School of Witchcraft and Wizardry. Harry is counting down the days;
+                  there are new spells to be learnt, more Quidditch to be played and the Hogwarts castle to continue exploring. But Harry needs to be careful – there are unexpected dangers lurking.
+                  Find out more about his adventure, go ahead and read the book! Click on the image to read the complete review.</h4>
+                  <a href="https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire"><img class="review-image" src="hp-4.jpg" alt="Harry Potter and the Goblet of Fire"></a>
+                  <p><em>Harry Potter and the Goblet of Fire</em></p>
+                </div>
+
+                <div class="carousel-item">
+                  <h4 class="review-heading">Harry, Ron and Hermione are due to start their 5th year at Hogwarts School of Witchcraft and Wizardry. Harry is desperate to learn the secrets that Ron and Hermione have known all summer and why they have been so secretive.
+                    But as a new change of staff occurs at Hogwarts, the school is about to be turned upside down.
+                    Find out more about his adventure, go ahead and read the book! Click on the image to read the complete review.</h4>
+                    <a href="https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix"><img class="review-image" src="hp-5.jpg" alt="Harry Potter and the Order of Phoenix"></a>
+                    <p><em>Harry Potter and the Order of Phoenix</em></p>
+                  </div>
+
+                  <div class="carousel-item">
+                    <h4 class="review-heading">Set during Harry Potter's sixth year at Hogwarts, the novel explores the past of Harry's nemesis, Lord Voldemort, and Harry's preparations for the final battle against
+                      Voldemort alongside his headmaster and mentor Albus Dumbledore. Find out more about his adventure, go ahead and read the book! Click on the image to read the complete review.</h4>
+                      <a href="https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince"><img class="review-image" src="hp-6.jpg" alt="Harry Potter and the Half Blood Prince"></a>
+                      <p><em>Harry Potter and the Half Blood Prince</em></p>
+                    </div>
+
+                    <div class="carousel-item">
+                      <h4 class="review-heading">Following Albus Dumbledore's death, Voldemort consolidates support and power, including by attempting to take control of the Ministry of Magic.
+                        Meanwhile, Harry is about to turn seventeen, at which time he will lose the protection of his home. Members of the Order of the Phoenix explain the situation to the Dursleys and move them to a new location for protection.
+                        Find out more about his adventure, go ahead and read the book! Click on the image to read the complete review.
+                      </h4>
+                      <a href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows"><img class="review-image" src="hp-7.jpg" alt="Harry Potter and the Deathly Hallows"></a>
+                      <p><em>Harry Potter and the Deathly Hallows</em></p>
+                    </div>
+
+                    <a class="carousel-prev carousel-control-prev" href="#review-carousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-next carousel-control-next" href="#review-carousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <hr>
+              <section id="other-books">
+                <p class="other-books-title">Check these out! Click on the image to read the reviews by GoodReads.</p>
+                <div class="books-img">
+                  <a href="https://www.goodreads.com/book/show/42118856-cari-mora?from_search=true&from_srp=true&qid=nKIBEYVAJR&rank=1"><img class="other-books-img" src="cari-mora.jpg" alt="Cari Mora, by Thomas Harris"></a>
+                  <a href="https://www.goodreads.com/book/show/42118856-cari-mora?from_search=true&from_srp=true&qid=nKIBEYVAJR&rank=1"><img class="other-books-img" src="dark-wood.jpg" alt="In a Dark, Dark Wood, by Ruth Ware"></a>
+                </div>
+
+                <div class="books-img">
+                  <a href="https://www.goodreads.com/book/show/2429135.The_Girl_with_the_Dragon_Tattoo?ac=1&from_search=true&qid=HieC6Y1NbS&rank=1"><img class="other-books-img" src="dragon-tattoo.jpg" alt="The Girl with the Dragon Tattoo, by Stieg Larrson"></a>
+                  <a href="https://www.goodreads.com/book/show/19288043-gone-girl?from_search=true&from_srp=true&qid=n74DNbbQQF&rank=1"><img class="other-books-img" src="gone-girl.jpg" alt="Gone Girl, by Gillian Flynn"></a>
+                </div>
+
+                <div class="books-img">
+                  <a href="https://www.goodreads.com/book/show/42201919-pretty-revenge?ac=1&from_search=true&qid=XClVoVe6rH&rank=1"><img class="other-books-img" src="pretty-revenge.jpg" alt="Pretty revenge, by Emily Liebert"></a>
+                  <a href="https://www.goodreads.com/book/show/24233708-an-absolutely-remarkable-thing?ac=1&from_search=true&qid=SjHWngHUre&rank=1"><img class="other-books-img" src="remarkable.jpg" alt="An Absolutely Remarkable Thing, by Hank Green"></a>
+                </div>
+
+                <div class="books-img">
+                  <a href="https://www.goodreads.com/book/show/22557272-the-girl-on-the-train?ac=1&from_search=true&qid=URjVI772PC&rank=1"><img class="other-books-img" src="the-girl-on-the-train.jpg" alt="The Girl on the Train, by Paula Hawkins"></a>
+                  <a href="https://www.goodreads.com/book/show/35955191-the-lost-night?ac=1&from_search=true&qid=UPwMADcBvK&rank=1"><img class="other-books-img" src="the-lost-night.jpg" alt="The Lost Night, by Andrea Bartz"></a>
+                </div>
+
+
+              </section>
+
+              <section id="footer">
+
+                <p class="footer-text">This is a sample website. For reference.</p>
+
+              </section>
+
+            </body>
+            </html>

@@ -1,0 +1,212 @@
+/* title section components */
+#title-section
+{
+  background-color: white;
+  padding: auto;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+/* navbar specifications */
+.navbar
+{
+  background-color: #76dbd1;
+}
+.navbar-brand
+{
+  font-family: 'Sigmar One', cursive;
+}
+.navbar-brand:hover
+{
+  transform: scale(1.2);
+}
+.nav-item:hover
+{
+  transform:scale(0.8);
+}
+.container-fluid
+{
+  width: 100%;
+}
+/* content in the title section apart from navbar */
+.title-heading
+{
+  text-align: center;
+  margin: 200px 30px 20px 50px;
+  font-family: 'Special Elite', cursive;
+  font-size: 50px;
+  font-weight: bolder;
+}
+@media (max-width: 1000px)
+{
+  .title-heading
+  {
+    font-size: 30px;
+  }
+}
+.title-image
+{
+  height: 300px;
+  width: 300px;
+  margin: 150px 50px 20px 200px;
+  transform: rotate(10deg);
+}
+@media (max-width: 1000px)
+{
+  .title-image
+  {
+    height: 200px;
+    width: 200px;
+    margin: 50px 30px 20px 130px;
+    transform: rotate(0);
+  }
+}
+/* features section components */
+#features
+{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  width: 100%;
+}
+/* features section headings */
+.heading
+{
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+}
+@media (max-width: 1000px)
+{
+  .heading
+  {
+    font-size: 25px;
+  }
+}
+/* feature section images: checkcircle, bullseye & heart */
+.features-img
+{
+  color: #76dbd1;
+  margin-bottom: 30px;
+}
+.features-img:hover
+{
+  color: #0c7b93;
+  transform: scale(1.2);
+}
+@media (max-width: 1000px)
+{
+  .features-img
+  {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+/* carousel-section- only Harry Potter */
+#reviews
+{
+  background-color: white;
+}
+.carousel-item
+{
+  text-align: center;
+}
+.review-heading
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Merriweather', serif;
+  line-height: 2.0;
+  font-size: 18px;
+}
+@media (max-width: 1000px)
+{
+  .review-heading
+  {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2.0;
+  }
+}
+.review-image
+{
+  margin-bottom: 30px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 235px;
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-next:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #76dbd1;
+}
+.carousel-control-prev:after {
+  content: '<';
+  font-size: 55px;
+  color: #76dbd1 ;
+}
+/* other books section */
+.other-books-title
+{
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+@media (max-width: 1000px)
+{
+  .other-books-title
+  {
+    font-size: 25px;
+  }
+}
+.other-books-img
+{
+  height: 400px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-bottom: 90px;
+}
+@media (max-width: 1000px)
+{
+  .other-books-img
+  {
+    height: 250px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+  }
+}
+/* footer section */
+#footer
+{
+  background-color: #76dbd1;
+  padding: 50px 0 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1000px)
+{
+  #footer
+  {
+    padding: 40px 0 20px;
+  }
+}
+.footer-text
+{
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+padding: 10px 0 10px 0;
+color: #e4f9f5;
+}
